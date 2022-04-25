@@ -33,4 +33,11 @@ var subtraction = num1 - num2;
 var division = num1 / num2;
 var multiplication = num1 * num2;
 
-var average = (num1 + num29 / 2;
+var average = (num1 + num2) / 2;
+
+var power = Math.pow(2,4); // this does 2^4, which is 16
+var roundedNumber = Math.round(2.7); // rounds to the nearest integer, so 3
+var roundUp = Math.ceil(4.3) // rounds to the next integer, so 5
+var roundDown = Math.floor(4.6) // rounds to the current integer, so 4
+var squareRoot = Math.sqrt(36) // square root, so 6
+var randomNumber = Math.random() // the result is a random number between 0 and 1
