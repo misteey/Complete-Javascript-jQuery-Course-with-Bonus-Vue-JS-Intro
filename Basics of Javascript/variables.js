@@ -46,3 +46,12 @@ var randomNumber = Math.random() * 100 // the result is a random number between 
 var myNumber = 3.78633;
 console.log( myNumber.toFixed(2) ); // will show 3.79
 console.log( myNumber.toFixed(4) ); // will show 3.7863
+
+var sales = 20;
+sales = sales+= 5;
+console.log(sales); // the result will be 25
+
+var name = "Ivan";
+name += " ";
+name += "Doe";
+cosnole.log(name); // the console will show Ivan Doe
