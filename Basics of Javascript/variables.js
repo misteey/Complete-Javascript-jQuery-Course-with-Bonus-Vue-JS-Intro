@@ -48,10 +48,25 @@ console.log( myNumber.toFixed(2) ); // will show 3.79
 console.log( myNumber.toFixed(4) ); // will show 3.7863
 
 var sales = 20;
-sales = sales+= 5;
+sales+= 5;
 console.log(sales); // the result will be 25
 
 var name = "Ivan";
 name += " ";
 name += "Doe";
-cosnole.log(name); // the console will show Ivan Doe
+console.log(name); // the console will show Ivan Doe
+
+var firstNumber = "21";
+var secondNumber = "4";
+console.log(firstNumber+ secondNumber); // the result will be 214
+
+// to convert strings to numbers we can use parseInt (for integers) or parseFloat (for numbers with decimals) functions
+
+var firstNumber = "21";
+var secondNumber = "4";
+console.log( parseInt(firstNumber) + parseInt(secondNumber) );  // the result will be 25
+
+// to do the opposite we can use the toString method
+
+var yearOfBirth = 1986;
+console.log( yearOfBirth.toString() + " is the year I was born" );
