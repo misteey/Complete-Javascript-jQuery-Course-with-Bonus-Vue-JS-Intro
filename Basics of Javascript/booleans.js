@@ -3,8 +3,8 @@
 5 < 5; // false
 5 <= 10; // true
 20 == 20; // true
-'john' == 'johnny' // false
-'a' == 'A' // false
+'john' == 'johnny'; // false
+'a' == 'A'; // false
 20 === "20"; // false - same value but different types
 20 != 10; // true
 10 != 10; // false
