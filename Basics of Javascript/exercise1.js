@@ -3,7 +3,7 @@ console.log("This is ex1.js");
 
 // task 2
 var firstName = "Ana";
-var lastName = "mistee";
+var lastName = "an";
 var currentYear = "2022";
 var yearOfBirth = "2002";
 
