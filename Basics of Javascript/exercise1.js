@@ -33,7 +33,7 @@ function convert(number) {
         number = String(number);
     }
     if (number.length === 9) {
-        console.log("valid number")
+        console.log("valid number");
     } else {
         console.log("invalid number");
     }
