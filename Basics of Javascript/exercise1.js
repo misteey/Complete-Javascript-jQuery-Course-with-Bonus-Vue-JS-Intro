@@ -40,7 +40,7 @@ function convert(number) {
 }
 
 // task 5
-console.log(Math.pow(32,6))
+console.log(Math.pow(32,6));
 
 // task 6
 var NAME; // valid
