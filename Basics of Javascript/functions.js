@@ -11,3 +11,15 @@ function sum_numbers() {
 
 sum_numbers(); // the console will show 7
  
+// function arguments
+
+function sum_args(num1,num2) {
+  var sum = num1 + num2;
+  console.log(sum);
+}
+
+// now when invoking the function we can use any numbers we want:
+
+sum_args(10,25); // the console will show 35
+sum_args(1000,375); // the console will show 1375
+sum_args(-2,47); // the console will show 45
