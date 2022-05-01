@@ -35,3 +35,5 @@ console.log( sum_args(10,25) );
 
 var average = sum_args(10,25) / 2;
 console.log( average );
+
+document.getElementById("sum_result").innerHTML = sum_args(-27,55);
