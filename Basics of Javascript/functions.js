@@ -23,3 +23,15 @@ function sum_args(num1,num2) {
 sum_args(10,25); // the console will show 35
 sum_args(1000,375); // the console will show 1375
 sum_args(-2,47); // the console will show 45
+
+// the return statement
+
+function sum_args(num1,num2) {
+  sum = num1 + num2;
+  return sum;
+}
+
+console.log( sum_args(10,25) );
+
+var average = sum_args(10,25) / 2;
+console.log( average );
