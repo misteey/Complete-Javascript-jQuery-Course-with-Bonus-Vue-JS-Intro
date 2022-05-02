@@ -33,6 +33,7 @@ function sum_args(num1,num2) {
 
 console.log( sum_args(10,25) );
 
+
 var average = sum_args(10,25) / 2;
 console.log( average );
 
